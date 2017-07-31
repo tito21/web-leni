@@ -1,0 +1,92 @@
+@media (max-width: 70em) {
+    /* Pantallas pequenas */
+}
+@media (min-width : 70em) {
+    /* Pantallas grandes */
+    body {
+        width : 70em; 
+        margin : auto;
+    }
+}
+
+div#title {
+    width: 356px;
+    height: 250px;
+    margin: .1em auto 0.5em auto;
+}
+nav {
+    /*padding-bottom: 2em; */
+    border-bottom: 0.25em solid #139E73;
+    border-top: 0.25em solid #139E73;
+    height: 2em
+}
+nav ul#nav {
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+nav ul#nav li {
+    float: left;
+    margin: 0 1em 0 1em;
+    padding: .5em .5em 0 .5em;
+    height: 1.5em;
+    display: block;
+    /*-webkit-text-stroke: 2px white;
+    text-shadow: 0px 0px 5px white;
+    */   
+}
+nav ul#nav li.selected {
+    background: #139E73;
+}
+nav ul#nav li.selected a {
+    color: white;
+}
+nav ul#nav li a {
+    color: #139E73;
+    text-decoration: none;
+}
+nav ul#nav li:hover {
+    background: lightgray;
+}
+nav ul#nav li#telares:hover {
+    background: #ABABD3;
+}
+nav ul#nav li#ceramicas:hover {
+    background: #54A4B8
+}
+nav ul#nav li#pinturas:hover {
+    background: #D2AE6D
+}
+nav ul#nav li#bordados:hover {
+    background: #C6E7E7
+}
+
+div#cont {
+    margin-top: 2em;
+    padding: 0 2em 0 2em;
+}
+div#cont p {
+    margin-left: 150px;
+    padding-left: 2em;
+    width: 20em;
+    float: left;
+}
+
+div#cont .title {
+    float: left;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+div#cont div#foto-cont {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items :center;
+
+}
+
+div#cont .foto {
+    margin: .5em;
+}
