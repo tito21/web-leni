@@ -1,6 +1,6 @@
 # Sitio web de leni
 
-[leni.cl](leni.cl)
+[www.leni.cl](http://www.leni.cl)
 
 ## Welcome to GitHub Pages
 
