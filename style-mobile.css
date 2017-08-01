@@ -1,0 +1,38 @@
+/* Moblie */
+body {
+    width:100%;
+    margin: 0px;
+}
+
+div#title {
+    width: 100%;
+    text-align: center;
+}
+div#title a img {
+    width: 80%;
+    margin-top: 1em;
+}
+
+nav {
+    width: 98%;
+    height: 100%;
+    margin: auto;
+}
+nav ul#nav {
+    align-items: center;
+    flex-direction: column;
+}
+nav ul#nav li {
+    width: 96%;
+    text-align: center;
+}
+div#cont {
+    margin-top: 2em;
+    padding: 0 1em 0 1em;
+}
+div#cont p {
+    margin-left: 0;
+    padding-left: 0;
+    width: 100%;
+    float: right;
+}
