@@ -6,6 +6,7 @@ body {
 
 div#title {
     width: 100%;
+    height: auto;
     text-align: center;
 }
 div#title a img {
