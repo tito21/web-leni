@@ -14,6 +14,16 @@ div#title a img {
     margin-top: 1em;
 }
 
+div.texto {
+    display: none;
+}
+
+div#title > div {
+    float: initial;
+    width: 50%;
+    margin: 0 auto;
+}
+
 nav {
     width: 98%;
     height: 100%;

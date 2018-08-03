@@ -15,10 +15,17 @@ body {
 }
 
 div#title {
-    width: 356px;
-    height: 250px;
+    height: 125px;
     margin: .1em auto 0.5em auto;
 }
+
+div#title > div {
+    width: 33%;
+    float: left;
+    font-size: 0.9em;
+    text-align: center;
+}
+
 nav {
     /*padding-bottom: 2em; */
     border-bottom: 0.25em solid #139E73;
